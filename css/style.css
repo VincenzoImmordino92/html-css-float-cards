@@ -8,9 +8,10 @@ body{
   font-family: 'Fredoka', sans-serif;
 }
 
+/* header */
+
 .container{
   text-align: center;
-  display: inline-block;
   padding: 10px 30px;   
 }
 
@@ -22,3 +23,28 @@ header p{
 margin-top: 20px;
 }
 
+/* main */
+
+.blocco{
+  width: auto;
+  height: 250px;
+  background-color: gray;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container .blocco div{
+  padding: 25px 70px;
+  background-color: dodgerblue;
+  display: inline-block;
+  margin: 40px 40px;
+
+}
+
+.float-left{
+  float: left;
+}
