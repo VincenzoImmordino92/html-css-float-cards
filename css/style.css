@@ -38,13 +38,56 @@ margin-top: 20px;
 }
 
 .container .blocco div{
-  padding: 25px 70px;
+  width: 200px;
+  height: 50px;
+  
   background-color: dodgerblue;
-  display: inline-block;
-  margin: 40px 40px;
+  
+  margin-top: 50px;
+  margin: 10px 40px;
 
+}
+
+img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  display: inline-block;
+  
 }
 
 .float-left{
   float: left;
+}
+
+.informazioni{
+  text-align: left;
+}
+img .name-surname, .work, .email{
+  margin: 5px 8px;
+}
+
+.name-surname{
+  text-align: left;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: white;
+  display:block;
+  padding: 5px 10px;
+}
+
+.work{
+  text-align: left;
+  font-size: 0.5rem;
+  font-weight: 200;
+  color: white;
+  display:block;
+}
+
+.email{
+  text-align: left;
+  font-size: 0.5rem;
+color: blue;
+display:block;
+
 }
